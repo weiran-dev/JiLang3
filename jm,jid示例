@@ -1,0 +1,26 @@
+0 #rt
+1 #int
+2 &1
+3 @bti_ipt					// builtin_input
+4 #if
+5 @true
+6 @bti_ipt
+7 @0
+8 #lp
+9 @opr_!=
+10 &1
+11 @10
+12 {
+13 #if
+14 @opr_==
+15 &1
+16 @1
+17 {
+18 @bti_ipt
+19 ...
+
+
+#rt#int&1#bti_ipt#if@true#bti_ipt@0#lp@opr_!=&1@10{#if@opr_==&1@1{@bti_ipt
+
+1>0|2>1|3>0
+

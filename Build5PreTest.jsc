@@ -1,0 +1,14 @@
+// Ji V3.0 Build 5 Func Pre-Test
+abc("Ji V3b5 Func")
+输出(Fib(8))
+
+无返回值 abc(字符串 s){
+	信息框(s)
+	输出(s)
+}
+
+整数型 Fib(整数型 x){
+	如果(s==1 || s==2)
+		返回(1)
+	返回(Fib(x-1)+Fib(x-2))
+}
